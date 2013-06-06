@@ -1,0 +1,254 @@
+/* line 17, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+/* line 4, ../sass/screen.scss */
+body {
+  font-size: 62.5%;
+  font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+  background-color: #ebf0e4;
+  border-top: solid 12px #352238;
+}
+
+
+
+/* line 9, ../sass/screen.scss */
+#container{
+  font-size: 1.8em;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 30px;
+  color: #352238;
+  font-family: 'Maven Pro', Arial, serif; 
+  font-weight: 400; 
+  text-align: center;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+input[type=text]{
+  width: 290px;
+  height: 25px;
+  background-color: #cfc9c1;
+  border-style: none;
+  padding-left: 10px;
+}
+
+
+/*NE TEST*/
+input[type="radio"] {
+	background-color: #cfc9c1;
+}
+/*nbe test*/
+
+
+.imageBar{
+  width: 100%;
+  background-color: #bab3ab;
+}
+
+
+.imageLinks{
+  width: 800px;
+  height: 80px;
+  margin: auto;
+}
+
+.imageLink{
+  display: inline-block;
+  width: 19%;
+  height: 100%;
+}
+
+.imageLink:nth-child(odd) {
+  background-color: #aea59b;
+}
+
+
+.navigation{
+  font-size: 1.8em;
+  width: 100%;
+  height: 124px;
+  background-color: #716254;
+  margin: 0 auto;
+}
+
+.navigation a{
+  width: 223px;
+  height: 117px;
+  display: inline-block;  
+}
+
+.navLink{
+  margin: 0 auto;
+  margin-top: 5px;
+  margin: auto;
+  width: 680px;
+}
+
+h2{
+    text-indent: -9999px;
+    height: 0px;
+}
+
+/* line 15, ../sass/screen.scss */
+#container h1 {
+  font-size: 2em;
+}
+/* line 19, ../sass/screen.scss */
+#container h3 {
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+
+.header{
+  width: 100%;
+  height: 297px;
+  background: url("../images/background.png") center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo{
+  margin:auto;
+  margin-top: 40px;
+  width: 270px;
+  height: 270px;
+  margin-top: 48px;
+}
+
+
+/*FONT*/
+.button{
+  background-color: #726254; 
+  font-family: 'Maven Pro', Arial, serif; 
+  font-weight: 400; 
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #ebf0e4;
+  letter-spacing:1px;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left:25%;
+  margin-right: 25%; 
+  margin-bottom: 20px;
+  margin-top: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+
+
+
+@media only screen and (max-width:640px){
+
+  .navLink{
+    margin-top: 5px;
+    margin: auto;
+    width: 310px;
+  }
+
+  .navigation a{
+  width: 97px;
+  height: 117px;
+  }
+
+  .ATrips {
+    content: url("../images/Icon_AlleTrip_MOBILE.png");
+    width: 111px;
+    height: 127px;
+  }
+
+  .STrips {
+    content: url("../images/Icon_MaakTrip_MOBILE.png");
+    width: 111px;
+    height: 127px;
+  }
+
+  .BTrips {
+    content: url("../images/Icon_BeheerTrip_MOBILE.png");
+    width: 111px;
+    height: 127px;
+  }
+
+  #container{
+    font-size: 1.8em;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .imageLinks{
+  width: 100%;
+}
+
+    
+}
+
